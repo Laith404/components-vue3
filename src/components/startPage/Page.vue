@@ -59,8 +59,8 @@
 </template>
 
 <script>
-import './page.css';
-import MyHeader from './Header.vue';
+import '../../assets/styles/page.css';
+import MyHeader from '../layout/Header.vue';
 
 export default {
   name: 'my-page',
@@ -75,13 +75,13 @@ export default {
 
   methods: {
     onLogin() {
-      this.user = { name: 'Jane Doe' };
+      this.user = { name: 'Samokhin Marat' };
     },
     onLogout() {
       this.user = null;
     },
     onCreateAccount() {
-      this.user = { name: 'Jane Doe' };
+      this.user = { name: 'Samokhin Marat' };
     },
   },
 };

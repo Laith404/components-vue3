@@ -31,8 +31,8 @@
 </template>
 
 <script>
-import './header.css';
-import MyButton from './Button.vue';
+import '../../assets/styles/header.css';
+import MyButton from '../ui/Button.vue';
 
 export default {
   name: 'my-header',
